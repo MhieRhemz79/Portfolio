@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personalize Portfolio Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="profile-card">
+        <div class="cover"></div>
+        <div class="profile"></div>
+        <div class="pic"></div>
+        <div class="above-fold">
+            <div class="name">Remedios T. Sibug</div>
+            <div class="role">Software Developer</div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>Cavity City, Philippines
+            </div>
+            <div class="button">Follow</div>
+            <div class="button">Message</div>
+        </div>
+        <div id="expand-button">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </div>
+    <div class="below-fold">
+        <div class="about">
+            <h3>About</h3>
+            <p>
+                Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="row stats">
+            <div class="stat">
+                <label for="Posts"></label>
+                <div class="num">1,010</div>
+        </div>
+        <div class="stat">
+                <label for="Followers"></label>
+                <div class="num">10.10k</div>
+        </div>
+        <div class="stat">
+            <label for="Likes"></label>
+            <div class="num">10k</div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script>
+    $('expand-button').click(function() {
+        $('profile-card').toggleClass('expand');
+    });
+</script>
+</body>
+</html>
