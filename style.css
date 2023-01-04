@@ -142,7 +142,7 @@ span{
 .btn2{
     font-size: 14px;
     font-weight: 600;
-    color: #161616;
+    color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +162,7 @@ span{
     margin-right: 20px;
     transition: ease .30s;
 }
-.social{
+/* .social{
     position: absolute;
     top: 50%;
     padding: 0 7%;
@@ -173,13 +173,13 @@ span{
 }
 .social ul li i{
     font-size: 22px;
-    color:#161616;
+    color: white;
     transition: all .30s;
 }
 .social ul li i:hover{
     transform: translateY(-5px);
     color: #ef0454;
-}
+} */
 
 
 @media (max-width: 1380px){
@@ -191,9 +191,9 @@ span{
         padding: 0 2%;
         transition: .2s;
     }
-    .social{
+    /* .social{
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 1120px){
