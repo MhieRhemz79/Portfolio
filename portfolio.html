@@ -4,57 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personalize Portfolio Card</title>
+    <title>My Personalized Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background"></div>
-    <div class="profile-card">
-        <div class="cover"></div>
-        <div class="profile"></div>
-        <div class="pic"></div>
-        <div class="above-fold">
-            <div class="name">Remedios T. Sibug</div>
-            <div class="role">Software Developer</div>
-            <div class="location">
-                <i class="fa-solid fa-location-dot"></i>Cavity City, Philippines
+    <header>
+        <a href="#" class="logo"><img src="RhemieS.png"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <a href="#" class="btn">Download CV</a>
+    </header>
+
+    <section class="container">
+        <div class="text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
             </div>
-            <div class="button">Follow</div>
-            <div class="button">Message</div>
+            <h1>Rhemie</h1>
+            <h2>Web<span>Developer</span></h2>
+            <p>Web Developer with a year experience that keep customers coming back for about sevices Makes best effort.</p>
+            <div class="button">
+                <a href="#" class="btn">Say Hello</a>
+                <a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Watch My Work</a>
+            </div>
         </div>
-        <div id="expand-button">
-            <i class="fa-solid fa-arrow-down"></i>
-        </div>
+    </section>
+
+    <div class="social">
+        <ul>
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+            <li><a href="#"><i class='bx bxl-dribbble'></i></a></li>
+        </ul>
+
     </div>
-    <div class="below-fold">
-        <div class="about">
-            <h3>About</h3>
-            <p>
-                Lorem ipsum dolor sit amet.
-            </p>
-        </div>
-        <div class="row stats">
-            <div class="stat">
-                <label for="Posts"></label>
-                <div class="num">1,010</div>
-        </div>
-        <div class="stat">
-                <label for="Followers"></label>
-                <div class="num">10.10k</div>
-        </div>
-        <div class="stat">
-            <label for="Likes"></label>
-            <div class="num">10k</div>
-        </div>
-    </div>
-    </div>
-    </div>
-</div>
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-<script>
-    $('expand-button').click(function() {
-        $('profile-card').toggleClass('expand');
-    });
-</script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!------link to js------>
+    <script type="text/javascript" src="js/script.js"></script>
+    
 </body>
 </html>
